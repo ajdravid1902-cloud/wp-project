@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodScape - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+
+  <nav>
+    <a href="home.html">HOME</a>
+    <a href="index.html">INDEX</a>
+    <a href="journal.html">Journal</a>
+    <a href="moods.html">Mood History</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <main class="container">
+    <h1>How are you feeling today?</h1>
+    <div class="mood-options">
+      <button onclick="setMood('happy')">😊 Happy</button>
+      <button onclick="setMood('sad')">😢 Sad</button>
+      <button onclick="setMood('anxious')">😰 Anxious</button>
+      <button onclick="setMood('excited')">🤩 Excited</button>
+    </div>
+    <a href="journal.html" class="btn">Go to Journal</a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
